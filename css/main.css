@@ -1,0 +1,253 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #201b2d;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
+    box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+p {
+    line-height: 1.65em;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 19px;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.header {
+    background: rgb(78, 190, 254);
+    background: linear-gradient(135deg, rgba(78, 190, 254, 1) 0%, rgba(55, 143, 217, 1) 100%);
+    padding-top: 60px;
+    padding-bottom: 130px;
+    color: #fff;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.offer {
+    margin-top: 150px;
+}
+.percent {
+    width: 50%;
+}
+.title {
+    font-size: 36px;
+}
+.span {
+    font-size: 59px;
+}
+.txt {
+    margin-top: 45px;
+    width: 66.66%;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+.button {
+    background: #ffd429;
+    color: #201b2d;
+    display: block;
+    width: 37%;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    transition: all 0.5s ease;
+}
+.button:hover {
+    background: #fff;
+}
+.travel {
+    margin-top: 45px;
+}
+.list {
+    margin-top: 105px;
+    margin-bottom: 120px;
+    text-align: center;
+}
+.skills {
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+.skill {
+    width: 24.7%;
+}
+.form {
+    background: #ecf3f8;
+    padding-top: 100px;
+    padding-bottom: 102px;
+    text-align: center;
+}
+.form-txt {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+}
+.icon {
+    margin: 29px;
+}
+.icon2 {
+    margin: 25px;
+}
+.icon3 {
+    margin: 24px;
+}
+.input {
+    border: 1px solid #bbb;
+    width: 343px;
+    height: 45px;
+    display: block;
+    margin-bottom: 16px;
+    padding-left: 23px;
+}
+.btn {
+    border: 0;
+    cursor: pointer;
+    color: #201b2d;
+    width: 343px;
+    height: 55px;
+    margin-top: -1px;
+    display: block;
+    background: #ffd429;
+    font-family: "Montserrat", sans-serif;
+    transition: all 0.5s ease;
+}
+.btn:hover {
+    background: #fff;
+}
+.footer {
+    background: #164d7a;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+    font-size: 14px;
+}
+.end {
+    margin: 0;
+}
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+    .wrapper {
+        justify-content: space-around;
+    }
+    .offer {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    .percent {
+        width: 100%;
+    }
+    .offer {
+        margin-top: 110px;
+        width: 100%;
+    }
+    br {
+        display: none;
+    }
+    .txt {
+        margin-top: 20px;
+        width: 75%;
+    }
+    .travel {
+        margin-top: 30px;
+    }
+    .span {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    .offer {
+        margin-top: 90px;
+    }
+    .header {
+        padding-bottom: 90px;
+    }
+    .skills {
+        flex-direction: column;
+        align-items: center;
+    }
+    .skill {
+        margin-bottom: 30px;
+        width: 90%;
+    }
+    .list {
+        margin-bottom: 90px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+    .button {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .offer {
+        margin-top: 70px;
+    }
+    .button {
+        width: 100%;
+    }
+    .input {
+        display: inline;
+        width: 100%;
+        height: 40px;
+        padding-left: 20px;
+    }
+    .btn {
+        width: 100%;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .offer {
+        width: 100%;
+    }
+    .header {
+        padding-bottom: 80px;
+    }
+}
